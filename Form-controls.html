@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+<body class="bg-dark">
+
+    <section>
+        <div class="container bg-secondary p-5 m-5 color-block">
+            <div class="mb-3 ms-5">
+                   <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                   <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+           </div>
+            <div class="mb-3 ms-5">
+                   <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>br
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+           </div><br>
+                  <input class="form-control" type="text" placeholder="Disabled input" aria-label="Disabled inp0ut example" disabled>
+                   <input class="form-control" type="text" value="Disabled readonly input" aria-label="Disabled input example" disabled readonly><br><br>
+              <div class="mb-3 row bg-light">
+                  <label for="staticEmail" class="col-sm-2 col-form-label bg-primary">Email</label>
+              <div class="col-sm-10">
+                  <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com">
+              </div><br><br>
+              </div>
+               <div class="mb-3 row ">
+                  <label for="inputPassword" class="col-sm-2 col-form-label bg-primary">Password</label>
+               <div class="col-sm-10">
+                  <input type="password" class="form-control " id="inputPassword">
+              </div>
+              <div class="col-auto m-2 m-auto">
+                 <button type="submit" class="btn btn-primary mb-3 m-auto">Confirm identity</button>
+              </div>
+             <div class="mb-3">
+                <label for="formFile" class="form-label bg-primary">Default file input example</label>
+                <input class="form-control" type="file" id="formFile">
+             </div>
+             <div class="mb-3">
+                <label for="formFileMultiple" class="form-label bg-primary">Multiple files input example</label>
+                <input class="form-control" type="file" id="formFileMultiple" multiple>
+             </div>
+             <div class="mb-3">
+                <label for="formFileDisabled" class="form-label bg-primary">Disabled file input example</label>
+                <input class="form-control" type="file" id="formFileDisabled" disabled>
+            </div>
+                 <label for="exampleColorInput" class="form-label">Color picker</label>
+                 <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#563d7c" title="Choose your color">
+                 <label for="exampleDataList" class="form-label">Datalist example</label><br><br>
+
+                 <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+                <datalist id="datalistOptions">
+                       <option value="San Francisco">
+                       <option value="New York">
+                       <option value="Seattle">
+                       <option value="Los Angeles">
+                       <option value="Chicago">
+                 </datalist>
+          </div>
+    </section>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
